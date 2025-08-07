@@ -1,0 +1,29 @@
+# Core dependencies
+pandas>=1.5.0
+numpy>=1.21.0
+tqdm>=4.64.0
+
+# Document processing
+PyPDF2>=3.0.0
+PyMuPDF>=1.20.0  # fitz
+python-docx>=0.8.11
+
+# LLM and AI
+openai>=0.27.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.3  # Use faiss-gpu if GPU available
+
+# Text processing
+nltk>=3.8
+spacy>=3.4.0
+
+# Optional: Download spacy model
+# python -m spacy download en_core_web_sm
+
+# Development and testing
+pytest>=7.0.0
+black>=22.0.0
+flake8>=4.0.0
+
+# Logging and utilities
+python-dotenv>=0.19.0
