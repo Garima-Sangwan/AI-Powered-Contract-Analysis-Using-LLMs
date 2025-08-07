@@ -37,7 +37,7 @@ graph TD
 
 1. **Clone the repository**
    ```bash
-   git clone <your-repo-url>
+   git clone https://github.com/Garima-Sangwan/AI-Powered-Contract-Analysis-Using-LLMs
    cd legal-contract-processor
    ```
 
@@ -55,7 +55,7 @@ graph TD
 
 4. **Set up OpenAI API key**
    ```bash
-   export OPENAI_API_KEY="your-api-key-here"
+   export OPENAI_API_KEY="your-api-key-here" #you can use your own
    ```
    Or create a `.env` file:
    ```
